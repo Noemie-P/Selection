@@ -1,0 +1,90 @@
+.allignemilieu {
+	text-align: center;
+}
+.titre {
+	font-size: 20pt;
+}
+.alligneadroite {
+	text-align: right;
+}
+header {
+	border: 1px solid darkcyan;
+	background-color: darkcyan;
+	padding:10px;
+}
+section {
+	width: 65%;
+	padding: 50px;
+	margin:auto;
+	text-align: justify;
+}
+.case {
+	width:300px;
+	height:110px;
+	overflow:auto;
+	word-wrap: break-word;
+}
+.flex-container {
+	display:flex;
+	align-items:stretch;
+}
+.tableau {
+	width:100%;
+	overflow:auto
+}
+table,th,td {
+	border:1px solid black;
+	border-collapse: collapse;
+}
+th,td{
+	padding:15px;
+}
+.aqua {
+	background-color:#00ffff;
+}
+.aquamarine {
+	background-color:#7fffd4;
+}
+.teal{
+	background-color:#008080;
+}
+.blanc{
+	color:white;
+}
+.identifiant{
+	display:flex;
+	border:5px ridge darkcyan;
+	padding:5px;
+	width: 30%;
+	text-align:center;
+	justify-content:center;
+	margin: auto;
+}
+.conteneur{
+	display: flex;
+}
+.marge{
+	margin-right:10px;
+}
+.bouton {
+	border-radius: 12px;
+}
+.gras{
+	font-weight:bold;
+}
+fieldset {
+	border-color: #7fffd4;
+	border-radius: 10px;
+}
+legend {
+	 color:#008080;
+	 font-size:20px;
+}
+.petitecolonne {
+	width: 20px;
+}
+a {
+	text-decoration:none;
+	color: black
+}
+
