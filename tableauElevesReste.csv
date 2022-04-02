@@ -1,0 +1,3 @@
+nom_eleve,prenom_eleve,ine_eleve,point_bac,point_travail_serieux,point_absence,point_attitude,point_etude_superieure,point_avis_pp,point_avis_proviseur,point_lettre_motivation,remarque,point_remarque,statut_dossier,total_point
+dubois,georges,1111111111,12,1,1,1,1,1,2,1,2,0,accepte,20
+delmont,thomas,11111111121,12,1,1,1,0,1,1,2,test,0,accepte,19

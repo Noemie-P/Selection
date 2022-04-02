@@ -28,6 +28,10 @@ section {
 	display:flex;
 	align-items:stretch;
 }
+.flex-column {
+	display:flex;
+	flex-direction: column;
+}
 .tableau {
 	width:100%;
 	overflow:auto
@@ -88,3 +92,22 @@ a {
 	color: black
 }
 
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.allign-center {
+	display: flex;
+	justify-content:center;
+	text-align:center;
+	flex-direction: column;
+}
+
+.canvas {
+	width: 480;
+	height: 320;
+}

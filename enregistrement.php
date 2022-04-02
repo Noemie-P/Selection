@@ -6,11 +6,12 @@ include("connexion_bdd.php");
     <?php include("head.php"); ?>
 	
 		<?php include("entete.php"); ?>
-		<h1>Espace Evalateur</h1>
+		<h1>Espace Evaluateur</h1>
 		<div class="allignemilieu">
 			<p> Que souhaitez-vous faire?<p>
 			<a href="enregistrement.php"><button type="button" name="enregistrer" class="bouton">Enregistrer un élève</button</a>
 			<a href="classement.php"><button type="button" name="voir_classement" class="bouton">Voir le classement</button></a>
+			<a href="statistiques.php"><button type="button" name="voir_statistiques" class="bouton">Voir les statistiques</button></a>
 		</div><br>
 		<h2 class="allignemilieu">Enregistrement des élèves</h2>
 		<div class="flex-container">

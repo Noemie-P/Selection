@@ -10,7 +10,7 @@
 				<label for="password">Mot de passe</label><br>
 				<input type="password" id="password" name="password" required><br>
 				<br>
-				<input type="submit"  class="bouton" value="Entrer">
+				<input type="submit"  class="bouton" value="Entrer"><br>
 			</form>
 		</div>
 <?php include("footer.php"); ?>

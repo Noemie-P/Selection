@@ -109,11 +109,11 @@ include("connexion_bdd.php");
 							<textarea id="remarque" name="remarque" class="case"><?php echo $eleve['remarque'];?></textarea>
 						</fieldset>
 						<h3>Statut du dossier</h3>
-							<input type="radio" id="statut_accepte" name="statut_dossier" value='accepté' <?php if ($eleve['statut_dossier'] == "accepté") {echo "checked";}?>>
+							<input type="radio" id="statut_accepte" name="statut_dossier" value='accepté' <?php if ($eleve['statut_dossier'] == "accepte") {echo "checked";}?>>
 							<label for="statut_accepte">Accepté</label>
 							<input type="radio" id="statut_examination" name="statut_dossier" value='re_examination' <?php if ($eleve['statut_dossier'] == "re_examination") {echo "checked";}?>>
 							<label for="statut_examination">A ré_examiner</label>
-							<input type="radio" id="statut_refuse" name="statut_dossier" value ='refusé' <?php if ($eleve['statut_dossier'] == "refusé") {echo "checked";}?>>
+							<input type="radio" id="statut_refuse" name="statut_dossier" value ='refusé' <?php if ($eleve['statut_dossier'] == "refuse") {echo "checked";}?>>
 							<label for="statut_refuse">Refusé</label>
 						<div class="alligneadroite">
 							<input type="reset" value="Effacer" class="bouton">

@@ -6,5 +6,6 @@ include('entete.php');?>
     <p> Que souhaitez-vous faire?<p>
     <a href="enregistrement.php"><button type="button" name="enregistrer" class="bouton">Enregistrer un élève</button</a>
     <a href="classement.php"><button type="button" name="voir_classement" class="bouton">Voir le classement</button></a>
+    <a href="statistiques.php"><button type="button" name="voir_statistiques" class="bouton">Voir les statistiques</button></a>
 </div>
 <?php include("footer.php");?>
